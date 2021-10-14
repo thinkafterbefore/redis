@@ -2,7 +2,7 @@ name: Daily
 on: [push, pull_request]
 jobs:
   test-ubuntu-jemalloc:
-    runs-on: buildjet-2vcpu-ubuntu-2004
+    runs-on: buildjet-4vcpu-ubuntu-2004
     timeout-minutes: 14400
     steps:
     - name: prep
